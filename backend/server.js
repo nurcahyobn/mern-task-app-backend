@@ -16,7 +16,7 @@ app.use("/api/tasks", taskRoutes);
 
 //Routes
 app.get("/", (req, res) => {
-  res.send("Hompage");
+  res.send("Hompage MERN");
 });
 
 //Create port
@@ -33,3 +33,4 @@ const startServer = async () => {
   }
 };
 startServer();
+ 
